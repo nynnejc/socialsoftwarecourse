@@ -58,7 +58,7 @@ a {
 
 a, a:visited{
 	text-decoration: none;
-	color: rgb(229,228,21);
+	color: rgb(247, 87, 163);
   animation-name: out;
 animation-duration: 1s;
 background-color: rgba(0,50,255,0);
@@ -92,7 +92,7 @@ ul {
 }
 
 ::selection {
-    background: rgb(232,190,213);
+    background: #C99BB1;
 }
 
 .container-body {
@@ -150,51 +150,6 @@ ul {
     color: transparent;
     text-shadow: 0 0 3px rgb(243, 243, 168);
 }
-
-.polka {
-    display: block;
-    opacity: 0;
-    animation: showPolka 2s ease-in-out forwards;
-    animation-delay: 2s;
-}
-
-.polka-container {
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    overflow: hidden;
-}
-
-.polka {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    opacity: 0; 
-    animation: popUp 220s ease-in-out forwards;
-}
-
-
-.polka:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; animation-duration: 15s; }
-.polka:nth-child(2) { top: 40%; left: 70%; animation-delay: 2s; animation-duration: 30s; }
-.polka:nth-child(3) { top: 80%; left: 30%; animation-delay: 4s; animation-duration: 20s; }
-.polka:nth-child(4) { top: 60%; left: 50%; animation-delay: 1s; animation-duration: 8s; }
-.polka:nth-child(5) { top: 20%; left: 80%; animation-delay: 3s; animation-duration: 40s; }
-.polka:nth-child(6) { top: 50%; left: 10%; animation-delay: 5s; animation-duration: 4s; }
-.polka:nth-child(7) { top: 70%; left: 60%; animation-delay: 7s; animation-duration: 8.5s; }
-.polka:nth-child(8) { top: 10%; left: 90%; animation-delay: 6s; animation-duration: 20s; }
-.polka:nth-child(9) { top: 50%; left: 5%; animation-delay: 6s; animation-duration: 7.2s; }
-.polka:nth-child(10) { top: 5%; left: 30%; animation-delay: 6s; animation-duration: 22s; }
-
-
-@keyframes popUp {
-    0%, 20% { opacity: 0; }  
-    25%, 75% { opacity: 1; }
-    80%, 100% { opacity: 0; } 
-}
-
 
 
 hr { 
